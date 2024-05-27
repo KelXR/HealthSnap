@@ -7,18 +7,57 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C24A28242C00567200FD07E0 /* ScanViewTemporary.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24A28232C00567200FD07E0 /* ScanViewTemporary.swift */; };
+		C24A28262C00569100FD07E0 /* ResultViewTemporary.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24A28252C00569100FD07E0 /* ResultViewTemporary.swift */; };
+		C24E0ED82BFC7FC00063061A /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24E0ED72BFC7FC00063061A /* HeaderView.swift */; };
+		C25264AF2C011AA70046C083 /* RecordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25264AE2C011AA70046C083 /* RecordView.swift */; };
+		C28D430E2C0197440029AEE6 /* BloodTestDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28D430D2C0197440029AEE6 /* BloodTestDataManager.swift */; };
 		C2A5E28A2BFC587D003336C5 /* HealthSnapApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2A5E2892BFC587D003336C5 /* HealthSnapApp.swift */; };
 		C2A5E28C2BFC587D003336C5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2A5E28B2BFC587D003336C5 /* ContentView.swift */; };
 		C2A5E28E2BFC587E003336C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2A5E28D2BFC587E003336C5 /* Assets.xcassets */; };
 		C2A5E2912BFC587E003336C5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2A5E2902BFC587E003336C5 /* Preview Assets.xcassets */; };
+		C2A5E2982BFC590D003336C5 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2A5E2972BFC590D003336C5 /* Launch Screen.storyboard */; };
+		C2C425E72BFDD077009A72F2 /* ScanData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C425E62BFDD077009A72F2 /* ScanData.swift */; };
+		C2C425E92BFDD601009A72F2 /* ScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C425E82BFDD601009A72F2 /* ScannerView.swift */; };
+		C2C425EC2BFDDC08009A72F2 /* TextRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C425EB2BFDDC08009A72F2 /* TextRecognizer.swift */; };
+		C2C425F22BFEE96F009A72F2 /* HealthyClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = C2C425F12BFEE96F009A72F2 /* HealthyClassifier.mlmodel */; };
+		C2C425F42BFEEBDA009A72F2 /* BloodTestData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C425F32BFEEBDA009A72F2 /* BloodTestData.swift */; };
+		C2C46F3A2C03228500A7CCE8 /* RecordViewTemporary.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C46F392C03228500A7CCE8 /* RecordViewTemporary.swift */; };
+		C2C46F3C2C03A14600A7CCE8 /* Temp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C46F3B2C03A14600A7CCE8 /* Temp.swift */; };
+		C2C46F402C03C99B00A7CCE8 /* smntara.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C46F3F2C03C99B00A7CCE8 /* smntara.swift */; };
+		C2C46F422C03CC4200A7CCE8 /* RecordDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C46F412C03CC4200A7CCE8 /* RecordDetail.swift */; };
+		C2D177DF2BFC90BF00C7146B /* NavbarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D177DE2BFC90BF00C7146B /* NavbarView.swift */; };
+		C2D177E12BFC965700C7146B /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D177E02BFC965700C7146B /* HomeView.swift */; };
+		C2D177E52BFC974100C7146B /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D177E42BFC974100C7146B /* ResultView.swift */; };
+		C2D177E72BFC9E0600C7146B /* ScanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D177E62BFC9E0600C7146B /* ScanView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C24A28232C00567200FD07E0 /* ScanViewTemporary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanViewTemporary.swift; sourceTree = "<group>"; };
+		C24A28252C00569100FD07E0 /* ResultViewTemporary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewTemporary.swift; sourceTree = "<group>"; };
+		C24E0ED72BFC7FC00063061A /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		C25264AE2C011AA70046C083 /* RecordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordView.swift; sourceTree = "<group>"; };
+		C28D430D2C0197440029AEE6 /* BloodTestDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BloodTestDataManager.swift; sourceTree = "<group>"; };
 		C2A5E2862BFC587D003336C5 /* HealthSnap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HealthSnap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2A5E2892BFC587D003336C5 /* HealthSnapApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthSnapApp.swift; sourceTree = "<group>"; };
 		C2A5E28B2BFC587D003336C5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C2A5E28D2BFC587E003336C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C2A5E2902BFC587E003336C5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C2A5E2972BFC590D003336C5 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		C2C425E62BFDD077009A72F2 /* ScanData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanData.swift; sourceTree = "<group>"; };
+		C2C425E82BFDD601009A72F2 /* ScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerView.swift; sourceTree = "<group>"; };
+		C2C425EB2BFDDC08009A72F2 /* TextRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextRecognizer.swift; sourceTree = "<group>"; };
+		C2C425ED2BFDEC86009A72F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		C2C425F12BFEE96F009A72F2 /* HealthyClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = HealthyClassifier.mlmodel; sourceTree = "<group>"; };
+		C2C425F32BFEEBDA009A72F2 /* BloodTestData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BloodTestData.swift; sourceTree = "<group>"; };
+		C2C46F392C03228500A7CCE8 /* RecordViewTemporary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordViewTemporary.swift; sourceTree = "<group>"; };
+		C2C46F3B2C03A14600A7CCE8 /* Temp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Temp.swift; sourceTree = "<group>"; };
+		C2C46F3F2C03C99B00A7CCE8 /* smntara.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = smntara.swift; sourceTree = "<group>"; };
+		C2C46F412C03CC4200A7CCE8 /* RecordDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordDetail.swift; sourceTree = "<group>"; };
+		C2D177DE2BFC90BF00C7146B /* NavbarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavbarView.swift; sourceTree = "<group>"; };
+		C2D177E02BFC965700C7146B /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		C2D177E42BFC974100C7146B /* ResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultView.swift; sourceTree = "<group>"; };
+		C2D177E62BFC9E0600C7146B /* ScanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +71,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C203F76C2BFC60CD005E7C9D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C2C425E62BFDD077009A72F2 /* ScanData.swift */,
+				C2C425F32BFEEBDA009A72F2 /* BloodTestData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C203F76D2BFC60DB005E7C9D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C2C425F52BFF22BC009A72F2 /* Layout Elements */,
+				C2A5E28B2BFC587D003336C5 /* ContentView.swift */,
+				C2D177E02BFC965700C7146B /* HomeView.swift */,
+				C2D177E62BFC9E0600C7146B /* ScanView.swift */,
+				C2C425E82BFDD601009A72F2 /* ScannerView.swift */,
+				C25264AE2C011AA70046C083 /* RecordView.swift */,
+				C2C46F412C03CC4200A7CCE8 /* RecordDetail.swift */,
+				C2D177E42BFC974100C7146B /* ResultView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C203F76E2BFC60E8005E7C9D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		C2A5E27D2BFC587D003336C5 = {
 			isa = PBXGroup;
 			children = (
@@ -51,8 +121,15 @@
 		C2A5E2882BFC587D003336C5 /* HealthSnap */ = {
 			isa = PBXGroup;
 			children = (
+				C2C46F382C031E7500A7CCE8 /* Temporary */,
+				C2C425EE2BFEE8E7009A72F2 /* MachineLearning */,
+				C2C425ED2BFDEC86009A72F2 /* Info.plist */,
+				C2C425EA2BFDDBFA009A72F2 /* Component */,
+				C203F76E2BFC60E8005E7C9D /* ViewModel */,
+				C203F76D2BFC60DB005E7C9D /* View */,
+				C203F76C2BFC60CD005E7C9D /* Model */,
 				C2A5E2892BFC587D003336C5 /* HealthSnapApp.swift */,
-				C2A5E28B2BFC587D003336C5 /* ContentView.swift */,
+				C2A5E2972BFC590D003336C5 /* Launch Screen.storyboard */,
 				C2A5E28D2BFC587E003336C5 /* Assets.xcassets */,
 				C2A5E28F2BFC587E003336C5 /* Preview Content */,
 			);
@@ -65,6 +142,44 @@
 				C2A5E2902BFC587E003336C5 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C2C425EA2BFDDBFA009A72F2 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				C28D430D2C0197440029AEE6 /* BloodTestDataManager.swift */,
+				C2C425EB2BFDDC08009A72F2 /* TextRecognizer.swift */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		C2C425EE2BFEE8E7009A72F2 /* MachineLearning */ = {
+			isa = PBXGroup;
+			children = (
+				C2C425F12BFEE96F009A72F2 /* HealthyClassifier.mlmodel */,
+			);
+			path = MachineLearning;
+			sourceTree = "<group>";
+		};
+		C2C425F52BFF22BC009A72F2 /* Layout Elements */ = {
+			isa = PBXGroup;
+			children = (
+				C24E0ED72BFC7FC00063061A /* HeaderView.swift */,
+				C2D177DE2BFC90BF00C7146B /* NavbarView.swift */,
+			);
+			path = "Layout Elements";
+			sourceTree = "<group>";
+		};
+		C2C46F382C031E7500A7CCE8 /* Temporary */ = {
+			isa = PBXGroup;
+			children = (
+				C24A28232C00567200FD07E0 /* ScanViewTemporary.swift */,
+				C24A28252C00569100FD07E0 /* ResultViewTemporary.swift */,
+				C2C46F392C03228500A7CCE8 /* RecordViewTemporary.swift */,
+				C2C46F3B2C03A14600A7CCE8 /* Temp.swift */,
+				C2C46F3F2C03C99B00A7CCE8 /* smntara.swift */,
+			);
+			path = Temporary;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +240,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2A5E2982BFC590D003336C5 /* Launch Screen.storyboard in Resources */,
 				C2A5E2912BFC587E003336C5 /* Preview Assets.xcassets in Resources */,
 				C2A5E28E2BFC587E003336C5 /* Assets.xcassets in Resources */,
 			);
@@ -137,7 +253,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2C425E92BFDD601009A72F2 /* ScannerView.swift in Sources */,
+				C2C425E72BFDD077009A72F2 /* ScanData.swift in Sources */,
+				C2C425EC2BFDDC08009A72F2 /* TextRecognizer.swift in Sources */,
+				C2C46F422C03CC4200A7CCE8 /* RecordDetail.swift in Sources */,
+				C24A28262C00569100FD07E0 /* ResultViewTemporary.swift in Sources */,
 				C2A5E28C2BFC587D003336C5 /* ContentView.swift in Sources */,
+				C2C425F42BFEEBDA009A72F2 /* BloodTestData.swift in Sources */,
+				C2D177E72BFC9E0600C7146B /* ScanView.swift in Sources */,
+				C24A28242C00567200FD07E0 /* ScanViewTemporary.swift in Sources */,
+				C2D177DF2BFC90BF00C7146B /* NavbarView.swift in Sources */,
+				C2C425F22BFEE96F009A72F2 /* HealthyClassifier.mlmodel in Sources */,
+				C28D430E2C0197440029AEE6 /* BloodTestDataManager.swift in Sources */,
+				C2C46F3C2C03A14600A7CCE8 /* Temp.swift in Sources */,
+				C2D177E12BFC965700C7146B /* HomeView.swift in Sources */,
+				C24E0ED82BFC7FC00063061A /* HeaderView.swift in Sources */,
+				C2C46F3A2C03228500A7CCE8 /* RecordViewTemporary.swift in Sources */,
+				C2C46F402C03C99B00A7CCE8 /* smntara.swift in Sources */,
+				C2D177E52BFC974100C7146B /* ResultView.swift in Sources */,
+				C25264AF2C011AA70046C083 /* RecordView.swift in Sources */,
 				C2A5E28A2BFC587D003336C5 /* HealthSnapApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -197,7 +331,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -254,7 +388,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -272,11 +406,15 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"HealthSnap/Preview Content\"";
+				DEVELOPMENT_TEAM = 6U87HWWFMX;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HealthSnap/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "$(PRODUCT_NAME) requires permission to scan files";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -300,11 +438,15 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"HealthSnap/Preview Content\"";
+				DEVELOPMENT_TEAM = 6U87HWWFMX;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HealthSnap/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "$(PRODUCT_NAME) requires permission to scan files";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
